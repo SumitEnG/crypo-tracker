@@ -74,7 +74,7 @@ const items = cryptoData?.map((coin)=>{
             mouseTracking
             infinite
             autoPlayInterval={2000}
-            animationDuration={3000}
+            animationDuration={1500}
             autoPlayDirection="rtl"
             autoPlay={true}
             disableButtonsControls
