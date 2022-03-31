@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CryptoProvider from './CryptoProvider';
 
 ReactDOM.render(
   <React.StrictMode>
+    <CryptoProvider>
     <App />
+    </CryptoProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
